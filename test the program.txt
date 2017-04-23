@@ -1,0 +1,22 @@
+Our officers have obtained password dumps storing hacker passwords. It appears that they are all in the format: "METRO-QNZG-" followed by 4 digits. Can you crack them?
+
+User	Value	Encrypted Password	Plaintext
+ Elyse
+z1nc
+15	558994ec257ec4dab52008bb8c83a2ff	
+Password...
+  Jenny
+tea1
+15	767c5f887884a9919354eb233f1c80de	
+Password...
+  Lindsay
+st4r
+15	1116374341f51b09d55f29d8bff8fcf4	
+Password...
+  Matt
+br33z3
+15	3972c73f04024969aff863519aa2a2e7	
+Password...
+  steve
+f1st
+15	d0402c998b97a7baab7e198da1afc921
