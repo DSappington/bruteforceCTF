@@ -126,7 +126,6 @@ if __name__ == '__main__':
         for line in open("data.txt"):
             if finder in line:
              print "Found! \n" + line
-
-     print"exiting..."
-     file.close()
+print"exiting..."
+file.close()
 
