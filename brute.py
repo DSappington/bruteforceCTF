@@ -1,4 +1,14 @@
-#!/usr/bin/ python
+#!/usr/bin/python
+
+
+def print_array(arr):
+    beginning = ''.join('{0}'.format(element) for element in arr) + flag
+    end = flag+ ''.join('{0}'.format(element) for element in arr)
+    if choice == 1:
+        file.write(beginning + "\n")
+    elif choice == 2:
+        file.write(end + "\n")
+
 
 
 def inc_cell(arr, position, minimum, maximum):
@@ -19,16 +29,12 @@ def inc_array(arr, current_position, minimum, maximum):
 if __name__ == '__main__':
     file = open("data.txt", "w+")
 
-    print("----------------------------------")
-    print"Enter the type of hash algorithm: \n1. MD5 \n2. SHA1\n3. SHA224\n4. SHA256 \n5. SHA384 \n6. SHA512"
-    print("----------------------------------\n")
-    hash = int(raw_input())
 
 
     print("----------------------------------")
     print"Enter the flag you would like to generate? \n"
     print("----------------------------------\n")
-    flag1 = raw_input()
+    flag = raw_input()
 
     print("----------------------------------")
     print"How many character are you trying to generate? \nExample: flag_ _ _ _"
@@ -46,7 +52,8 @@ if __name__ == '__main__':
     array = bytearray(array_size)
     inc_array(array, 0, min_range, max_range)
     
-    print"Brute.py Finished"
+    file.close()
+    print"bruteforce.py Finished"
 print"exiting..."
 file.close()
 
